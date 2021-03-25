@@ -1,0 +1,39 @@
+/* not being able to work out some basic things. feeling frustrated */
+/* issue to sorted */
+/* THIS IS WORKING */
+.body {
+    background-color: burlywood;
+}
+img {
+    width:100%;
+}
+
+/* issue to be sorted */
+/* THIS IS WORKING */
+.topbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid2{
+    display:grid;
+    grid-template-columns:50% 50%;
+    gap: 1em;
+    margin:0 15% 2em;
+}
+
+
+
+.grid3 {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin:10%;
+   
+}
+
+.grid3 div:first-child{
+    grid-column: 1/-1;
+    text-align:center;
+}
